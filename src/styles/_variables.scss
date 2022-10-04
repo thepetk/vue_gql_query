@@ -1,0 +1,14 @@
+$main-bg: #FAFAFA;
+$max-width: 1280px;
+$mobile-small-width: 700px;
+
+$header-height: 48px;
+$color-header-text: #ffffff;
+
+.el-form-item .el-input__validateIcon {
+    display: none !important;
+}
+
+.el-cascader .el-input__suffix {
+    right: 8px;
+}
