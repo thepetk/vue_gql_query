@@ -1,17 +1,11 @@
-<script setup lang="ts">
-defineProps<{
-  msg: string
-}>()
-</script>
-
 <template>
   <div class="greetings">
-    <h1 class="green">{{ msg }}</h1>
     <h3>
-      You’ve successfully created a project with
-      <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
-      <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
+      Welcome to <a href="https://graphql.org/learn/queries/" target="_blank" rel="noopener">GQL</a> Query Generator for <a href="https://gitlab.com/">Gitlab</a>
     </h3>
+    <h4>
+      Type your gitlab graphql api resource you want to fetch
+    </h4>
   </div>
 </template>
 

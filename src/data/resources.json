@@ -1,0 +1,4 @@
+[
+    {"name": "MergeRequests", "type": "query"},
+    {"name": "Projects", "type": "query"}
+]
